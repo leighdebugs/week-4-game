@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystals Collector!</title>
+
+	<!--Link CSS/Bootstrap, Javascript, Jquery, Google Fonts-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="assets/javascript/game.js"></script>
+
+</head>
+<!--Heading-->
+<div id="heading">Crystals Collector</div>
+
+<!--Game Grid-->
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<img src="assets/images/diamond.jpg" id="diamond" alt="Diamond" style="width:100px;height:100px">
+			<img src="assets/images/pyramid.jpg" id="pyramid" alt="Pyramid" style="width:100px;height:100px">
+			<img src="assets/images/eggcrystal.jpg" id="eggcrystal" alt="Egg Crystal" style="width:100px;height:100px">
+			<img src="assets/images/quartz.jpg" id="quartz" alt="Quartz" style="width:100px;height:100px">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<h3>Instructions:</h3>
+			<p>
+				Click on a crystal to add to your current score.
+				<br> 
+				The goal is to try to reach your target score. 
+				<br>
+				The problem? Each crystal has a random value. It's your job to figure out what that value
+				is, before you go over your target score!
+			</p>
+		</div>
+		<div class="col-md-6">
+			<div class="row">
+				<div class="col-md-6">
+					<h3>Current Score:</h3>
+					<div id="current"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<h3>Target Score:</h3>
+						<div id="total"></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<h3>Wins: </h3>
+						<div id="wins"></div>
+						<h3>Losses: </h3>
+						<div id="losses"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12" id="status">	</div>
+	</div>
+</div>
+
+
+
+<body>
+	
+</body>
+</html>
