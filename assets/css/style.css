@@ -1,0 +1,36 @@
+body {
+	background-image: url('../images/stardust.png'); 
+	background-repeat: repeat;
+	font-family: 'Stint Ultra Expanded', cursive;
+	color: #fff;
+}
+
+
+.header, #status {
+	text-align: center;
+	font-family: 'Bungee Shade', cursive;
+	color: #fff;
+}
+
+#img-row {
+	padding-left: 365px;
+	padding-right: 325px;
+}
+
+
+#diamond, #pyramid, #eggcrystal, #quartz {
+	border: 5px solid;
+	border-color: #fff;
+	margin: auto;
+	float: center;
+
+}
+
+#score {
+	margin-left: 200px;
+	margin-right: 100px;
+}
+
+#status {
+	font-size: 36px;
+}

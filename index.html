@@ -9,14 +9,15 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="assets/javascript/game.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Stint+Ultra+Expanded" rel="stylesheet">
 
 </head>
 <!--Heading-->
-<div id="heading">Crystals Collector</div>
+<div class="header"><h1>Crystal Collector</h1></div>
 
 <!--Game Grid-->
 <div class="container">
-	<div class="row">
+	<div class="row" id="img-row">
 		<div class="col-md-12">
 			<img src="assets/images/diamond.jpg" id="diamond" alt="Diamond" style="width:100px;height:100px">
 			<img src="assets/images/pyramid.jpg" id="pyramid" alt="Pyramid" style="width:100px;height:100px">
@@ -26,14 +27,17 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6">
-			<h3>Instructions:</h3>
+			<h2>Instructions:</h2>
 			<p>
 				Click on a crystal to add to your current score.
 				<br> 
 				The goal is to try to reach your target score. 
 				<br>
-				The problem? Each crystal has a random value. It's your job to figure out what that value
-				is, before you go over your target score!
+				The problem? Each crystal has a random value. It's your 
+				<br>
+				job to figure out what that value is, before you go over 
+				<br>
+				your target score!
 			</p>
 		</div>
 		<div class="col-md-6">
@@ -52,14 +56,21 @@
 					<div class="col-md-6">
 						<h3>Wins: </h3>
 						<div id="wins"></div>
+					</div>
+				<div class="row">
+					<div class="col-md-6">
 						<h3>Losses: </h3>
 						<div id="losses"></div>
 					</div>
+
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="row">
+		<br>
+		<br>
+		<br>
 		<div class="col-md-12" id="status">	</div>
 	</div>
 </div>
